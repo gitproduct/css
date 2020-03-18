@@ -1,0 +1,307 @@
+.fat-border {
+  border: 3px solid white;
+}
+
+.fat-border::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.fat-border:-ms-input-placeholder {
+  color: #ccc;
+}
+
+.fat-border::-ms-input-placeholder {
+  color: #ccc;
+}
+
+.fat-border::placeholder {
+  color: #ccc;
+}
+
+.fat-border:hover {
+  border: 3px solid white;
+}
+
+.fat-border:focus {
+  border: 3px solid white;
+}
+
+.invert-button {
+  border: 0;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.invert-button:hover {
+  background: #363636;
+  color: #fff;
+}
+
+.color-over-image {
+  background: url(https://i.pinimg.com/originals/87/22/19/872219e39469e56ff5742581122212bf.jpg) no-repeat center/cover;
+}
+
+.nav-burger {
+  width: 3.25rem;
+  height: 3.25rem;
+  position: relative;
+}
+
+.nav-burger span {
+  width: 16px;
+  height: 2px;
+  background-color: white;
+  display: block;
+  right: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  position: absolute;
+}
+
+.nav-burger span:nth-child(1) {
+  top: calc( 50% - 6px);
+}
+
+.nav-burger span:nth-child(2) {
+  width: 8px;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.nav-burger span:nth-child(3) {
+  top: calc( 50% + 6px);
+}
+
+.nav-burger:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-center {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidemenu {
+  width: auto;
+  height: 100vh;
+  padding: 1.5rem;
+  background: black;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  width: 400px;
+  -webkit-transition: all ease 300ms;
+  transition: all ease 300ms;
+}
+
+.sidemenu .sidemenu-head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.sidemenu .sidemenu-head .sidemenu-item {
+  cursor: pointer;
+}
+
+.sidemenu .sidemenu-body {
+  padding: 2rem 0;
+}
+
+.sidemenu.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.social-icons {
+  color: white;
+}
+
+.social-icons:hover {
+  color: orangered;
+}
+
+.slider-navigation-previous, .slider-navigation-next {
+  padding: 10px;
+  border: 0 !important;
+  background: transparent !important;
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.slider-navigation-previous svg, .slider-navigation-next svg {
+  width: 100% !important;
+}
+
+.top-item-1 {
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-item-2 {
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-item-3 {
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-item-1 p, .top-item-2 p, .top-item-3 p {
+  text-align: center;
+  color: white;
+}
+
+@-webkit-keyframes top-carousel-image {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes top-carousel-image {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+.back-image1, .back-image2, .back-image3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url(https://i.pinimg.com/originals/87/22/19/872219e39469e56ff5742581122212bf.jpg) no-repeat center/cover;
+  -webkit-animation-name: top-carousel-image;
+          animation-name: top-carousel-image;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.hover-col {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-col::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale();
+          transform: scale();
+}
+
+.hover-col:hover::after {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform ease 800ms;
+  transition: -webkit-transform ease 800ms;
+  transition: transform ease 800ms;
+  transition: transform ease 800ms, -webkit-transform ease 800ms;
+}
+
+.hover-col-1::after {
+  background: url(https://i.pinimg.com/originals/87/22/19/872219e39469e56ff5742581122212bf.jpg) no-repeat center/cover;
+}
+
+.hover-col-2::after {
+  background: url(https://wallpaperplay.com/walls/full/a/e/d/140309.jpg) no-repeat center/cover;
+}
+
+.hover-col-3::after {
+  background: url(https://wallpaperaccess.com/full/300068.jpg) no-repeat center/cover;
+}
+
+.hover-col-4::after {
+  background: url(https://wallpaperaccess.com/full/300068.jpg) no-repeat center/cover;
+}
+
+.hover-col-5::after {
+  background: url(https://wallpaperplay.com/walls/full/a/e/d/140309.jpg) no-repeat center/cover;
+}
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 100;
+  width: 64px;
+  height: 64px;
+  display: none;
+  right: 10px;
+  bottom: 10px;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=index.css.map */
